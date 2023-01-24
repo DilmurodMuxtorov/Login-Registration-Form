@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js/index.js" defer></script>
+    <title>Login & Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  
+</head>
+
+<body>
+    <div class="container">
+        <div class="form signup">
+            <h2 class="form__title">Sign Up</h2>
+            <div class="form__inputBox">
+                <input type="text" required="required" class="form__input">
+                <i class="fa-regular fa-user"></i>
+                <span class="form__span">username</span>
+            </div>
+            <div class="form__inputBox">
+                <input type="text" required="required" class="form__input">
+                <i class="fa-regular fa-envelope"></i>
+                <span class="form__span">email address</span>
+            </div>
+            <div class="form__inputBox">
+                <input type="password" required="required" class="form__input">
+                <i class="fa-solid fa-lock"></i>
+                <span class="form__span">create password</span>
+            </div>
+            <div class="form__inputBox">
+                <input type="password" required="required" class="form__input">
+                <i class="fa-solid fa-lock"></i>    
+                <span class="form__span">confirm password</span>
+            </div>
+            <div class="form__inputBox">
+                <input type="submit" value="Create Account" class="form__input form__submit" >
+            </div>
+            <p class="form__text">Already member ? <a href="#" class="login">Log in</a></p>
+
+
+        </div>
+        <div class="form signin">
+            <h2 class="form__title">Sign In</h2>
+            <div class="form__inputBox">
+                <input type="text" required="required" class="form__input">
+                <i class="fa-regular fa-user"></i>
+                <span class="form__span">username</span>
+            </div>
+            <div class="form__inputBox">
+                <input type="password" required="required" class="form__input">
+                <i class="fa-solid fa-lock"></i>
+                <span class="form__span">password</span>
+            </div>
+            <div class="form__inputBox">
+                <input type="submit" value="Login" class="form__input form__submit" >
+            </div>
+            <p class="form__text">Not Registered ? <a href="#" class="create">Create an Account</a></p>
+
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #f6d365 10%, #E0601E 80%);
+}
+
+.container {
+    padding: 40px;
+    border-radius: 20px;
+    border: 8px solid transparent;
+    box-shadow: -5px -10px 25px rgba(255, 255, 255, 0.1),
+        10px 10px 25px rgba(0, 0, 0, 0.35),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+
+}
+
+.container .form.signin,
+.container.signinForm .form.signup {
+    display: none;
+}
+
+.container.signinForm .form.signin {
+    display: flex;
+}
