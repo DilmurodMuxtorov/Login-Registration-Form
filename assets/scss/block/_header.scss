@@ -25,8 +25,8 @@
             width: 25px;
             padding: 2px 0;
             padding-right: 8px;
-            color: #fff;
-            border-right: 1px solid #fff;
+            color: #00dfc4;
+            border-right: 1px solid #00dfc4;
         }
     }
 
@@ -60,10 +60,10 @@
 
     &__input:valid~span,
     &__input:focus~span {
-        color: #fff;
-        border: 1px solid #fff;
-        background: transparent;
-        transform: translate(20px) translateY(-13px);
+        color: #00dfc4;
+        border: 1px solid #00dfc4;
+        background:#223243;
+        transform: translate(25px) translateY(-7px);
         font-size: 0.6em;
         padding: 0 8px;
         border-radius: 10px;
@@ -72,12 +72,12 @@
 
     &__input:valid,
     &__input:focus {
-        border: 1px solid #ffff;
+        border: 1px solid #00dfc4;
     }
 
     &__submit {
-        background:transparent;
-        color: white;
+        background:#00dfc4;
+        color: rgb(74, 72, 72);
         padding: 10px 0;
         font-weight: 500;
         cursor: pointer;
